@@ -55,7 +55,7 @@ const Footer = () => {
                 <FaDribbble size={36} />
               </Link>
             </div>
-            <ul className="space-y-4 footer-list">
+            <ul className="footer-list">
               <li>
                 <a
                   href="#about"

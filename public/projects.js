@@ -1,0 +1,67 @@
+export const projects = [
+  {
+    id: 1,
+    title: "Finbet.rs",
+    image: "./3.png",
+    desc: "We are a first class IT services provider for online gaming and sports betting industry.",
+    skills: ["React ", ",", "Directus CMS"],
+    link: "https://www.finbet.rs/",
+  },
+  {
+    id: 2,
+    title: "Gromada.games",
+    image: "./1.png",
+    desc: "Our creative studio grew around a strong tech core with more than two decades of b2b experience in the gaming industry. We are a tight nit team where ideas flow freely with an ever watchful eye on requirements and high production quality.We work with modern technologies and draw inspiration from all entertainment media while closely measuring the pulse of the industry. ",
+    skills: ["React ", ",", "Directus CMS"],
+    link: "https://gromada.games",
+  },
+  {
+    id: 3,
+    title: "Fingenuity.com",
+    image: "./fingenuity.png",
+    desc: "Fingenuity is a group of companies with one common aim: to do extraordinary things with data. ",
+    skills: ["HTML", ",", "CSS", ",", "NextJS", ",", "Directus CMS"],
+    link: "https://fingenuity-test.fincoreltd.rs",
+  },
+  {
+    id: 4,
+    title: "Fincore.com",
+    image: "./fincore.png",
+    desc: "Fincore is a group of companies with one common aim: to do extraordinary things with data. ",
+    skills: ["HTML", ",", "CSS", ",", "React", ",", "Directus CMS"],
+    link: "https://www.fincore.com",
+  },
+
+  {
+    id: 5,
+    title: "Fingaming.com",
+    image: "./fingaming.png",
+    desc: "We are experts in online gaming. We have been providing extraordinary software and service to the gaming industry for 20 years. ",
+    skills: ["HTML", ",", "CSS", ",", "React", ",", "Directus CMS"],
+    link: "https://www.fingaming.com",
+  },
+  {
+    id: 6,
+    title: "Magicians Piksi and Zeka",
+    image: "./piksi.png",
+    desc: "The best magicians in the country",
+    skills: ["HTML", ",", "CSS", ",", "NextJS"],
+    link: "https://piksizeka.netlify.app",
+  },
+  /*{
+      id: 7,
+      title: "Hair Saloon",
+      image: ("./saloon.png"),
+      desc: "Hair Saloon website",
+      skills: ["HTML", ",", "CSS", ",", "React"],
+      link: "https://ivann-2612.github.io/Responsive-website-one/",
+    },*/
+  {
+    id: 8,
+    title: "Portfolio",
+    image: "./port.png",
+    desc: "My personal portfolio website. ",
+    skills: ["HTML", ",", "CSS", ",", "React"],
+    link: "https://ivann-2612.github.io/Neumorphism-portfolio/",
+  },
+];

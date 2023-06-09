@@ -28,14 +28,14 @@ const About = () => {
             <div className="space-y-6">
               <p className="text-white">
                 I started as a self-taught web developer and continued learning
-                JS and React at IT Bootcamp. I have a strong will to progress
+                JS and ReactJS at IT Bootcamp Belgrade. I have a strong will to progress
                 and learn new technologies My interests are innovative design
                 and optimum user experience.
               </p>
               <p className="text-white">
                 I am a motivated and dedicated individual with a passion for web
                 development. With a strong foundation as a self-taught web
-                developer, I further honed my skills in JavaScript and React at
+                developer, I further honed my skills in JavaScript and ReactJS at
                 IT Bootcamp. I have a relentless drive to progress and stay
                 updated with the latest technologies. My interests lie in
                 creating innovative designs and delivering optimal user
@@ -46,9 +46,9 @@ const About = () => {
                 <ul className="list-disc pl-5 list-color">
                   <li>HTML / CSS </li>
                   <li>StrapiJS / Directus CMS</li>
-                  <li>Tailwind CSS / Bootstrap</li>
+                  <li>Tailwind CSS / Bootstrap CSS</li>
                   <li>JavaScript / TypeScript</li>
-                  <li>React / Next.js</li>
+                  <li>ReactJS / NextJS</li>
                 </ul>
                 {/*<button className="bg-transparent border hover:bg-white hover:text-black font-bold py-2 px-4 rounded hover:border-none">
                   <Link href="/CV_Ivan-Nikolic.pdf" target="_blank">

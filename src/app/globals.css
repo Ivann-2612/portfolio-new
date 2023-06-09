@@ -84,9 +84,9 @@ p {
   border-radius: 5px;
 }
 .hero-span-light {
-  backdrop-filter: invert(90%) blur(2px);
+  backdrop-filter: invert(15%) blur(2px);
   padding: 10px 15px;
-  color: #050505;
+  color: #050505 !important;
   border-radius: 5px;
 }
 .logo_img {

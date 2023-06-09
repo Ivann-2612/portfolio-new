@@ -8,7 +8,7 @@ const experiences = [
     company: "Finbet ",
     date: "Nov 2021 - Current",
     description:
-      "The comapany was founded in 2013 and built around a core team of internationally proven gaming systems experts, Finbet has grown to over 200 staff members to become a first-class IT service provider to the sports betting industry.The company I work for is the first class IT services provider for online gaming and sports betting industry.  ",
+      "The company was founded in 2013 and built around a core team of internationally proven gaming systems experts, Finbet has grown to over 200 staff members to become a first-class IT service provider to the sports betting industry.The company I work for is the first class IT services provider for online gaming and sports betting industry.  ",
   },
   {
     id: 2,

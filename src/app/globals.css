@@ -704,7 +704,6 @@ textarea:focus {
 }
 .card-bord {
   position: relative;
-  width: 300px;
   color: #fff;
   background: transparent;
   overflow: hidden;

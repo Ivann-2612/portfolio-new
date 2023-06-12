@@ -76,7 +76,7 @@ const Work = () => {
   const { isDark } = useTheme();
   return (
     <div id="work" className="bg-transparent text-white py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div>
         <article class={`${isDark ? "card-bord" : "card-bord-light"}`}>
           <h2 className="text-3xl font-bold text-center ">My projects</h2>
           <span class="span-bord top"></span>

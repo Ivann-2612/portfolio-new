@@ -89,8 +89,8 @@ const Work = () => {
           <Slide
             responsive={responsiveSettings}
             arrows={false}
-            autoplay={false}
-            transitionDuration={500}
+            autoplay={true}
+            transitionDuration={400}
             transition={`fade`}
             duration={5000}
             infinite={true}

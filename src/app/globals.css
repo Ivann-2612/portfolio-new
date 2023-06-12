@@ -254,7 +254,7 @@ p {
   border-right: 2px solid #150724;
 }
 .skill-bg {
-  background-color: #150724;
+ border: 1px solid #ea5704;
   width: 100% !important;
 }
 .but-hov:hover {

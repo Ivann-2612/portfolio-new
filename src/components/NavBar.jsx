@@ -64,19 +64,20 @@ const Navbar = () => {
           >
             About
           </a>
-          <a
-            href="#work"
-            className="text-lg font-bold text-gray-800 list-color link-hover"
-            onClick={handleLinkClick}
-          >
-            Work
-          </a>
+
           <a
             href="#experience"
             className="text-lg font-bold text-gray-800 list-color link-hover"
             onClick={handleLinkClick}
           >
             Experience
+          </a>
+          <a
+            href="#work"
+            className="text-lg font-bold text-gray-800 list-color link-hover"
+            onClick={handleLinkClick}
+          >
+            Work
           </a>
           <a
             href="#card"

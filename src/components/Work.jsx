@@ -2,6 +2,9 @@
 import { useTheme } from "@nextui-org/react";
 import Link from "next/link";
 import Image from "next/image";
+import { Slide } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
+
 const projects = [
   {
     id: 1,
@@ -53,6 +56,22 @@ const projects = [
     link: "https://piksizeka.netlify.app",
   },
 ];
+const responsiveSettings = [
+  {
+    breakpoint: 800,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 2,
+    },
+  },
+  {
+    breakpoint: 500,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+    },
+  },
+];
 const Work = () => {
   const { isDark } = useTheme();
   return (
@@ -66,48 +85,65 @@ const Work = () => {
           <span class="span-bord left"></span>
         </article>
 
-        <div
-          style={{ margin: "auto" }}
-          className="container mt-12 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3"
-        >
-          {projects.map((project) => (
-            <div
-              style={{ objectFit: "cover", width: "100%" }}
-              key={project.id}
-              className="flex flex-col shadow-lg overflow-hidden"
-            >
-              <div className="flex-shrink-0">
-                <Image
-                  src={project?.image}
-                  alt={project.title}
-                  width="400"
-                  height="300"
-                />
-              </div>
-              <div className="flex-1 bg-transparent p-6 flex flex-col justify-between pw-bg">
-                <div className="flex-1">
-                  <Link href={project.link}>
-                    <div className="block mt-2 flex h-full flex-col justify-between">
-                      <div>
-                        <p className="text-xl font-semibold list-color">
-                          {project.title}
-                        </p>
-                        <p className="mt-3 text-base">{project.desc}</p>
+        <div style={{ margin: "auto" }} className="container">
+          <Slide
+            responsive={responsiveSettings}
+            arrows={false}
+            autoplay={false}
+            transitionDuration={500}
+            transition={`fade`}
+            duration={5000}
+            infinite={true}
+            indicators={true}
+            pauseOnHover={false}
+            canSwipe={true}
+          >
+            {projects.map((project) => (
+              <div
+                style={{
+                  objectFit: "cover",
+                  width: "100%",
+                  paddingInline: "20px",
+                }}
+                key={project.id}
+                className="flex flex-col shadow-lg overflow-hidden card-div"
+              >
+                <div className="flex-shrink-0">
+                  <Image
+                    className="slider-imager"
+                    src={project?.image}
+                    alt={project.title}
+                    width="400"
+                    height="300"
+                  />
+                </div>
+                <div className="flex-1 bg-transparent p-6 flex flex-col justify-between pw-bg">
+                  <div className="flex-1">
+                    <Link href={project.link}>
+                      <div className="block mt-2 flex h-full flex-col justify-between">
+                        <div>
+                          <p className="text-xl font-semibold list-color">
+                            {project.title}
+                          </p>
+                          <p className="mt-3 text-base">{project.desc}</p>
+                        </div>
+                        <div>
+                          <p
+                            style={{
+                              fontSize: "15px",
+                            }}
+                            className="mt-6 p-2 text-base skill-bg but-hov"
+                          >
+                            {project.skills}
+                          </p>
+                        </div>
                       </div>
-                      <div>
-                        <p
-                          style={{ fontSize: "15px" }}
-                          className="mt-3 p-2 text-base skill-bg"
-                        >
-                          {project.skills}
-                        </p>
-                      </div>
-                    </div>
-                  </Link>
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </Slide>
         </div>
       </div>
     </div>

@@ -291,9 +291,10 @@ p {
 }
 .footer-b {
   border-top: #0b0017 2px solid;
-  background-image: url("https://nextui.org/stitches-gradient.svg");
+ /* background-image: url("https://nextui.org/stitches-gradient.svg");*/
   background-position: -320px;
   margin-top: 0px;
+  border-bottom: 2px solid #190133;
 }
 .footer-b-light {
   border-top: #0b0017 2px solid;

@@ -55,6 +55,14 @@ const projects = [
     skills: ["HTML", ",", "CSS", ",", "NextJS"],
     link: "https://piksizeka.netlify.app",
   },
+  {
+    id: 7,
+    title: "Splav Luz -Reka Sava",
+    image: "/splav.png",
+    desc: "Splav Luz -Reka Sava",
+    skills: ["HTML", ",", "CSS", ",", "NextJS"],
+    link: "https://splav.netlify.app/",
+  }
 ];
 const responsiveSettings = [
   {

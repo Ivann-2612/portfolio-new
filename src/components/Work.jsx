@@ -57,9 +57,9 @@ const projects = [
   },
   {
     id: 7,
-    title: "Splav Luz -Reka Sava",
+    title: "Splav Lux -Reka Sava",
     image: "/splav.png",
-    desc: "Splav Luz -Reka Sava",
+    desc: "Splav Lux -Reka Sava",
     skills: ["HTML", ",", "CSS", ",", "NextJS"],
     link: "https://splav.netlify.app/",
   }
